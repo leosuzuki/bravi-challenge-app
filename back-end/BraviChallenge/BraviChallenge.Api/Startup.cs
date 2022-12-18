@@ -38,13 +38,14 @@ namespace BraviChallenge.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseCors(_ =>
-                {
-                    _.AllowAnyOrigin()
-                    .AllowAnyHeader()
-                    .AllowAnyMethod();
-                });
             }
+
+            app.UseCors(_ =>
+            {
+                _.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            });
 
             app.UseHttpsRedirection();
 
