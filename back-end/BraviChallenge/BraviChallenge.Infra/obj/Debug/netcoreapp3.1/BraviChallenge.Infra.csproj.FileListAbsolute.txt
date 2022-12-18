@@ -1,0 +1,15 @@
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Infra.deps.json
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Infra.dll
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Infra.pdb
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Core.dll
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Core.pdb
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.csproj.AssemblyReference.cache
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.AssemblyInfoInputs.cache
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.AssemblyInfo.cs
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.csproj.CoreCompileInputs.cache
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.csproj.CopyComplete
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.dll
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.pdb
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Infra.runtimeconfig.json
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\bin\Debug\netcoreapp3.1\BraviChallenge.Infra.runtimeconfig.dev.json
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Infra\obj\Debug\netcoreapp3.1\BraviChallenge.Infra.genruntimeconfig.cache

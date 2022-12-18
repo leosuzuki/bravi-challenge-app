@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BraviChallenge.Application\BraviChallenge.Application.csproj" />
+    <ProjectReference Include="..\BraviChallenge.Core\BraviChallenge.Core.csproj" />
+    <ProjectReference Include="..\BraviChallenge.Infra\BraviChallenge.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore.Design">
+      <HintPath>C:\Users\Usuario\.nuget\packages\microsoft.entityframeworkcore.design\5.0.17\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Design.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

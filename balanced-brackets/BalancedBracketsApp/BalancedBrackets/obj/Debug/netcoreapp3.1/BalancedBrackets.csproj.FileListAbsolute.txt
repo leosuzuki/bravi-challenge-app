@@ -1,0 +1,13 @@
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\bin\Debug\netcoreapp3.1\BalancedBrackets.exe
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\bin\Debug\netcoreapp3.1\BalancedBrackets.deps.json
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\bin\Debug\netcoreapp3.1\BalancedBrackets.runtimeconfig.json
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\bin\Debug\netcoreapp3.1\BalancedBrackets.runtimeconfig.dev.json
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\bin\Debug\netcoreapp3.1\BalancedBrackets.dll
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\bin\Debug\netcoreapp3.1\BalancedBrackets.pdb
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.csproj.AssemblyReference.cache
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.AssemblyInfoInputs.cache
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.AssemblyInfo.cs
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.csproj.CoreCompileInputs.cache
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.dll
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.pdb
+D:\Projects\Git\bravi-challenge-app\balanced-brackets\BalancedBracketsApp\BalancedBrackets\obj\Debug\netcoreapp3.1\BalancedBrackets.genruntimeconfig.cache

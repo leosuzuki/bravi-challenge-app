@@ -1,0 +1,113 @@
+<div class="grid p-fluid">
+  <div class="col-12 md:col-offset-2 md:col-8">
+    <p-card header="Pessoas">
+      <p-toolbar styleClass="mb-4 gap-2">
+        <ng-template pTemplate="left">
+          <button pButton pRipple label="Adicionar" icon="pi pi-plus" class="p-button-sm p-button-info mr-2"
+                  (click)="showPersonDialog()"></button>
+        </ng-template>
+      </p-toolbar>
+
+      <p-table #dt [globalFilterFields]="['name']" [paginator]="true" [rows]="5" [scrollable]="true"
+               [showCurrentPageReport]="true" [value]="persons" breakpoint="680px"
+               currentPageReportTemplate="{first} de {last} de {totalRecords} registros" responsiveLayout="stack"
+               scrollHeight="320px">
+        <ng-template pTemplate="caption">
+          <div class="inline-flex">
+            <span class="p-input-icon-left ml-auto">
+              <i class="pi pi-search"></i>
+              <input (input)="dt.filterGlobal($event.target.value, 'contains')" class="p-inputtext-sm" pInputText
+                     placeholder="Pesquisar" type="text"/>
+            </span>
+          </div>
+        </ng-template>
+        <ng-template pTemplate="header" let-columns>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData>
+          <tr>
+            <td><span class="p-column-title font-bold">ID</span>{{rowData.id}}</td>
+            <td><span class="p-column-title font-bold">Nome</span>{{rowData.name}}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <button (click)="showPersonDialog(rowData.id)" class="p-button-sm p-button-info" icon="pi pi-user" pButton
+                      pRipple type="button">
+              </button>
+              <button (click)="showConfirmDialog(rowData.id)" class="p-button-sm p-button-danger md:ml-2 md:mt-0 mt-2"
+                      icon="pi pi-trash" pButton pRipple type="button">
+              </button>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </p-card>
+
+    <p-confirmDialog [breakpoints]="{'960px': '75vw', '640px': '100vw'}" [style]="{width: '50vw'}"
+                     acceptButtonStyleClass="p-button-sm" acceptLabel="Sim" defaultFocus="reject"
+                     header="Confirmação de Exclusão" icon="pi pi-exclamation-triangle"
+                     rejectButtonStyleClass="p-button-sm p-button-outlined" rejectLabel="Não">
+    </p-confirmDialog>
+
+    <p-dialog (onHide)="onHideDialog()" [(visible)]="displayPersonDialog"
+              [breakpoints]="{'960px': '75vw', '640px': '90vw'}" [draggable]="false"
+              [header]="personForm.controls['id'].value ? 'Editando...' : 'Cadastrando...'" [modal]="true"
+              [style]="{width: '50vw'}" styleClass="p-fluid">
+      <ng-template pTemplate="content">
+        <div [class.p-disabled]="isLoading">
+          <form [formGroup]="personForm">
+            <label>Nome:</label>
+            <input
+              [class.ng-dirty]="!personForm.controls['name'].valid && (personForm.controls['name'].dirty || submitted)"
+              [class.ng-invalid]="!personForm.controls['name'].valid && (personForm.controls['name'].dirty || submitted)"
+              aria-describedby="username2-help" class="p-inputtext-sm" formControlName="name" pInputText type="text">
+          </form>
+          <p-panel [style]="{height: '320px'}" header="Contatos" styleClass="mt-3">
+            <ng-template pTemplate="icons">
+              <button (click)="addPersonContactForm()" class="p-panel-header-icon p-link" pButton pRipple>
+                <span class="pi pi-plus-circle"></span>
+              </button>
+            </ng-template>
+            <form *ngFor="let form of personContactForm; let i=index" [formGroup]="form" class="mt-4">
+              <div class="flex">
+                <p-dropdown
+                  [class.ng-dirty]="!form.controls['description'].valid && (form.controls['description'].dirty || submitted)"
+                  [class.ng-invalid]="!form.controls['description'].valid && (form.controls['description'].dirty || submitted)"
+                  [options]="contactTypeOptions" appendTo="body" class="p-inputtext-sm" formControlName="contactType"
+                  optionLabel="label" optionValue="value" placeholder="Selecione">
+                </p-dropdown>
+                <input
+                  [class.ng-dirty]="!form.controls['description'].valid && (form.controls['description'].dirty || submitted)"
+                  [class.ng-invalid]="!form.controls['description'].valid && (form.controls['description'].dirty || submitted)"
+                  class="p-inputtext-sm ml-2" formControlName="description" pInputText type="text">
+                <button (click)="removePersonContactForm(form)" *ngIf="personContactForm.length > 1"
+                        class="p-button-sm p-button-danger ml-2" icon="pi pi-times" pButton pRipple>
+                </button>
+              </div>
+            </form>
+          </p-panel>
+        </div>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <div [class.p-disabled]="isLoading">
+          <button (click)="hidePersonDialog()" class="p-button-sm p-button-danger" icon="pi pi-times" label="Cancelar"
+                  pButton pRipple type="button">
+          </button>
+          <button (click)="savePerson()" class="p-button-sm p-button-success" icon="pi pi-check" label="Salvar" pButton
+                  pRipple type="button">
+          </button>
+        </div>
+      </ng-template>
+    </p-dialog>
+
+    <p-toast></p-toast>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\bin\Debug\netcoreapp3.1\BraviChallenge.Application.deps.json
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\bin\Debug\netcoreapp3.1\BraviChallenge.Application.dll
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\bin\Debug\netcoreapp3.1\BraviChallenge.Application.pdb
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\bin\Debug\netcoreapp3.1\BraviChallenge.Core.dll
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\bin\Debug\netcoreapp3.1\BraviChallenge.Core.pdb
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.csproj.AssemblyReference.cache
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.AssemblyInfoInputs.cache
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.AssemblyInfo.cs
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.csproj.CoreCompileInputs.cache
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.csproj.CopyComplete
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.dll
+D:\Projects\Git\bravi-challenge-app\back-end\BraviChallenge\BraviChallenge.Application\obj\Debug\netcoreapp3.1\BraviChallenge.Application.pdb
