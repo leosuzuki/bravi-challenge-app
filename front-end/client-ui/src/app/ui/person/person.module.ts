@@ -12,7 +12,6 @@ import {DropdownModule} from 'primeng/dropdown';
 import {ConfirmDialogModule} from 'primeng/confirmdialog';
 import {ConfirmationService, MessageService} from 'primeng/api';
 import {ToastModule} from 'primeng/toast';
-import {BlockUIModule} from 'primeng/blockui';
 import {PanelModule} from 'primeng/panel';
 import {MessageModule} from 'primeng/message';
 import {MessagesModule} from 'primeng/messages';
